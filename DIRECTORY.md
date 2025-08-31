@@ -373,6 +373,7 @@
             * [Volume](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/Volume.java)
           * matrixexponentiation
             * [Fibonacci](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/matrixexponentiation/Fibonacci.java)
+            * [FibonacciStairs](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/matrixexponentiation/FibonacciStairs.java)
           * misc
             * [ColorContrastRatio](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/misc/ColorContrastRatio.java)
             * [InverseOfMatrix](https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/misc/InverseOfMatrix.java)
