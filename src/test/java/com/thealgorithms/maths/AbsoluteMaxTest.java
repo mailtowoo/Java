@@ -18,4 +18,16 @@ public class AbsoluteMaxTest {
     void testGetMaxValueWithNoArguments() {
         assertThrows(IllegalArgumentException.class, AbsoluteMax::getMaxValue);
     }
+
+    @Test
+    void testGetMaxValue_withPositiveNumbersOnly() {
+        int result = AbsoluteMax.getMaxValue(1, 5, 3, 9, 2);
+        assertEquals(9, result);
+    }
+
+    @Test
+    void testGetMaxValue_withNegativeNumbersOnly() {
+        int result = AbsoluteMax.getMaxValue(-1, -5, -3, -9, -2);
+        assertEquals(-9, result); // Returns -9 with largest absolute value
+    }
 }
